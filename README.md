@@ -1,8 +1,8 @@
 # PrimeAssignment
 Assignment for Prime Holding internship 2023.1
 Documentation
-I did this assignment with web platform using Spring Boot framework, as I learned in the course, and database as storage place. I also used Eclipse for writing the code.
-Steps to start application:
+I did this assignment with web platform using Spring Boot framework, as I learned in the course, and database as storage place. I also used Eclipse for writing the code;
+Steps to start application:;
 You can just Import existing Maven project into IDE, and open the src folder, and top Package, "prime.holding", there is the main class called "FinalTestApplication.java", right click, and Run as Java Application.
 In resources folder you can find data.sql file with initial data for database, and when application is started, the SQL schema is created in MySQL.
 I divided files in classic Spring Boot structure, there is packages for: Model, Controller, Service, JPA Service, Repository, DTO, Support, Enum, and on the top there is class  ‘FinalTestApplication.java’  with the Main method.
